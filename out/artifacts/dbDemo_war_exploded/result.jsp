@@ -14,7 +14,6 @@
 <%
     String name = (String) session.getAttribute("name");   //获取保存在session范围内的对象
     String solution = request.getParameter("address");     //获取用户输入最喜欢去的地方
-    request.getHeaderNames();
 %>
 
 <form id="form1" name="form1" method="post" action="">
